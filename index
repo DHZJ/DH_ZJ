@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+		<title></title>
+		<link type="text/css" rel="stylesheet" href="css/index.css" />
+		<link type="text/css" rel="stylesheet" href="css/swiper.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/animate.min.css" />
+		<style>
+			.swiper-container {
+				width: 100%;
+			}
+			
+			.swiper-slide {
+				text-align: center;
+				font-size: 18px;
+				background: #fff;
+				/* Center slide text vertically */
+				display: -webkit-box;
+				display: -ms-flexbox;
+				display: -webkit-flex;
+				display: flex;
+				-webkit-box-pack: center;
+				-ms-flex-pack: center;
+				-webkit-justify-content: center;
+				justify-content: center;
+				-webkit-box-align: center;
+				-ms-flex-align: center;
+				-webkit-align-items: center;
+				align-items: center;
+			}
+			
+			.swiper-slide img {
+				width: 100%;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="nav">
+			<div class="logo">
+				<img src="img/logo.png" />
+			</div>
+			<ul class="ul">
+				<li class="li">
+					<a href="index.html">首页</a>
+				</li>
+				<li class="li">
+					<a href="#project">作品展示</a>
+				</li>
+				<li class="li">
+					<a href="#partner">合作伙伴</a>
+				</li>
+				<li class="li">
+					<a href="#doing">业务范围</a>
+				</li>
+				<li class="li">
+					<a href="#about">关于公司</a>
+				</li>
+			</ul>
+		</div>
+		<!-- Swiper -->
+		<div class="swiper-container content1">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"><img src="img/banner.png" /> </div>
+				<div class="swiper-slide"><img src="img/banner.png" /> </div>
+				<div class="swiper-slide"><img src="img/banner.png" /> </div>
+				<div class="swiper-slide"><img src="img/banner.png" /> </div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination swiper1"></div>
+			<!-- Add Arrows -->
+			<div class="swiper-button-next swiper-button-white"></div>
+			<div class="swiper-button-prev swiper-button-white"></div>
+		</div>
+		<!--我们参与的项目-->
+		<div class="project" id="project">
+			<p class="project_title bounceInDown wow">我们参与的项目</p>
+			<!-- Swiper -->
+			<div class="swiper-container content">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="lunbo"><img src="img/lunbo1.png" />
+							<p>项目标题123</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lunbo"><img src="img/lunbo2.png" />
+							<p>项目标题123</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lunbo"><img src="img/lunbo3.png" />
+							<p>项目标题123</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lunbo"><img src="img/lunbo4.png" />
+							<p>项目标题123</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lunbo"><img src="img/lunbo5.png" />
+							<p>项目标题123</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="lunbo"><img src="img/lunbo6.png" />
+							<p>项目标题123</p>
+						</div>
+					</div>
+					<!-- Add Pagination -->
+					<div class="swiper-pagination swiper2"></div>
+					<!-- Add Arrows -->
+					<div class="swiper-button-next1 swiper-button-white"></div>
+					<div class="swiper-button-prev1 swiper-button-white"></div>
+				</div>
+				<!--更多作品-->
+				<a href="">
+					<div class="more">
+						更多作品
+					</div>
+				</a>
+			</div>
+		</div>
+		<!--关于我们-->
+		<div class="about" id="about">
+			<p class="about_title bounceInUp wow" data-wow-duration="2s">关于我们</p>
+			<p class="js bounceInDown wow" data-wow-duration="1.5s" style="color: red;">广州袁动动漫设计有限公司（YD ART），致力于CG美术概念设计及三维影视游戏视觉开发制作</p>
+			<p class="js bounceInDown wow" data-wow-duration="1.5s">其团队现由创办人袁杰联合著名CG艺术家肖壮悦以及XRCGTEAM
+				<a href="http://www.baidu.com" style="color: blue;">(http://www.baidu.com)</a>成员和各游戏、影视、动漫业内资深艺术家所组成，</p>
+			<p class="js bounceInDown wow" data-wow-duration="1.5s">为国内外众多项目提供优质概念设计、原画设定、美宣插画、次世代3D、GUI、动作特效等外包服务。</p>
+			<p class="js bounceInDown wow" data-wow-duration="1.5s">曾参与《星际争霸》《上古卷轴》《英雄联盟》《战神》《三国无双》《梦幻西游》《LOC》《鬼吹灯》《长城》等国内外大型游戏影视项目视觉美术开发制作</p>
+			<div class="data">
+				<div class="data_">
+					<div id="count1" class="count"></div>
+					<p>员工</p>
+				</div>
+				<div class="data_">
+					<div id="count2" class="count"></div>
+					<p>客户</p>
+				</div>
+				<div class="data_">
+					<div id="count3" class="count"></div>
+					<p>项目</p>
+				</div>
+				<div class="data_">
+					<div id="count4" class="count"></div>
+					<p>周年</p>
+				</div>
+			</div>
+		</div>
+		<!--合作伙伴-->
+		<div class="partner" id="partner">
+			<p class="partner_title bounceInUp wow">合作伙伴</p>
+			<ul class="partner_ul">
+				<li>
+					<img src="img/about_01.jpg" />
+				</li>
+				<li>
+					<img src="img/about_02.jpg" />
+				</li>
+				<li>
+					<img src="img/about_03.jpg" />
+				</li>
+				<li>
+					<img src="img/about_04.jpg" />
+				</li>
+				<li>
+					<img src="img/about_05.jpg" />
+				</li>
+				<li>
+					<img src="img/about_06.jpg" />
+				</li>
+				<li>
+					<img src="img/about_07.jpg" />
+				</li>
+				<li>
+					<img src="img/about_08.jpg" />
+				</li>
+				<li>
+					<img src="img/about_09.jpg" />
+				</li>
+				<li>
+					<img src="img/about_10.jpg" />
+				</li>
+			</ul>
+		</div>
+		<!--我们做什么-->
+		<div class="doing" id="doing">
+			<p class="doing_title bounceInUp wow">我们做什么</p>
+			<p class="d_js bounceInDown wow" data-wow-duration="2s" style="color: red;">ACG领域视觉美术外包方案解决专家</p>
+			<p class="d_js bounceInDown wow" data-wow-duration="2s" style="font-weight: normal;">我们提供2D、3D、次世代游戏美术全流程外包服务，包括美术风格预研、整包定制、美术咨询等服务</p>
+			<div class="doing_img">
+				<ul class="doing_ul">
+					<li class="doing_li bounceInLeft wow" data-wow-delay="1.5s">
+						<img src="img/doimg_1.png" />
+						<p>手游</p>
+					</li>
+					<li class="doing_li bounceInLeft wow" data-wow-delay="1s">
+						<img src="img/doimg_2.png" />
+						<p>页游</p>
+					</li>
+					<li class="doing_li bounceInLeft wow" data-wow-delay="0.5s">
+						<img src="img/doimg_3.png" />
+						<p>端游</p>
+					</li>
+					<li class="doing_li bounceInRight wow" data-wow-delay="0.5s">
+						<img src="img/doimg_4.png" />
+						<p>次世代</p>
+					</li>
+					<li class="doing_li bounceInRight wow" data-wow-delay="1s">
+						<img src="img/doimg_5.png" />
+						<p>单机</p>
+					</li>
+					<li class="doing_li bounceInRight wow" data-wow-delay="1.5s">
+						<img src="img/doimg_6.png" />
+						<p>影视</p>
+					</li>
+				</ul>
+			</div>
+			<div class="doing_detail">
+				<ul class="detail_ul">
+					<li class="detai_li bounceInDown wow">
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+					</li>
+					<li class="detai_li bounceInDown wow">
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+					</li>
+					<li class="detai_li bounceInDown wow">
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+					</li>
+					<li class="detai_li bounceInDown wow">
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+					</li>
+					<li class="detai_li bounceInDown wow">
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+						<a href="">
+							<p>角色原画设计</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--foot-->
+		<div class="foot" id="foot">
+			<div class="foot_img"><img src="img/foot_logo.png" /></div>
+			<p>© 2018 XX公司 ICP备XXXXXXXX号 技术支持： XXX</p>
+		</div>
+
+	</body>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="http://cdn.dowebok.com/131/js/wow.min.js"></script>
+	<script src="js/count.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script>
+		//Swiper
+		var swiper = new Swiper('.content1', {
+			spaceBetween: 30,
+			centeredSlides: true,
+			autoplay: {
+				delay: 3500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: '.swiper1',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+
+		//
+		//		var window_height = $(window).height();
+		//		$(".swiper-wrapper").css("height",window_height+'px');
+		//动画
+		var wow = new WOW({
+			boxClass: 'wow',
+			animateClass: 'animated',
+			offset: 0,
+			mobile: true,
+			live: true	
+		});
+		wow.init();
+
+		var swiper = new Swiper('.content', {
+			slidesPerView: 6,
+			spaceBetween: 30,
+			slidesPerGroup: 2,
+			loop: true,
+			loopFillGroupWithBlank: true,
+			autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: '',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next1',
+				prevEl: '.swiper-button-prev1',
+			},
+		});
+
+		//计数
+		$(function() {
+			$("#count1").numberRock({
+				lastNumber: 1000,
+				duration: 5000,
+				easing: 'swing', //慢快慢
+			});
+			$("#count2").numberRock({
+				lastNumber: 200,
+				duration: 5000,
+				easing: 'swing', //慢快慢
+			});
+			$("#count3").numberRock({
+				lastNumber: 100,
+				duration: 5000,
+				easing: 'swing', //慢快慢
+			});
+			$("#count4").numberRock({
+				lastNumber: 10,
+				duration: 5000,
+				easing: 'swing', //慢快慢
+			});
+		});
+	</script>
+
+</html>
